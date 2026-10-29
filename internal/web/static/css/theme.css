@@ -1,0 +1,12 @@
+@font-face {font-family:Inter;src:url('../fonts/Inter-Regular.ttf');font-weight:400}
+@font-face {font-family:Inter;src:url('../fonts/Inter-Medium.ttf');font-weight:500}
+@font-face {font-family:Inter;src:url('../fonts/Inter-SemiBold.ttf');font-weight:600}
+@font-face {font-family:Inter;src:url('../fonts/Inter-Bold.ttf');font-weight:700}
+:root {color-scheme:light;--surface:#F4FBF8;--container:#E9EFEC;--primary:#006A60;--on-primary:#FFFFFF;--secondary:#CCE8E2;--text:#161D1C;--outline:#6F7977;--variant:#BEC9C6;--error:#BA1A1A;--badge:#DBEFEA;--badge-text:#051F1C;--pill:#74F8E5;--radius:10px}
+:root[data-theme=dark] {color-scheme:dark;--surface:#0E1513;--container:#1A2120;--primary:#53DBC9;--on-primary:#003731;--secondary:#334B47;--text:#DDE4E1;--outline:#899390;--variant:#3F4947;--error:#FFB4AB;--badge:#5C6F6C;--badge-text:#CCE8E2;--pill:#005048}
+@media (prefers-color-scheme:dark) {
+:root[data-theme=system] {color-scheme:dark;--surface:#0E1513;--container:#1A2120;--primary:#53DBC9;--on-primary:#003731;--secondary:#334B47;--text:#DDE4E1;--outline:#899390;--variant:#3F4947;--error:#FFB4AB;--badge:#5C6F6C;--badge-text:#CCE8E2;--pill:#005048}
+}
+* {box-sizing:border-box}
+body {margin:0;font:14px Inter,sans-serif;color:var(--text);background:var(--surface)}
+button,input,select {font:inherit}

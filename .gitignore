@@ -1,0 +1,6 @@
+# build output
+/dist/
+# local work folders
+/.worktrees/
+/.scratch/
+.DS_Store

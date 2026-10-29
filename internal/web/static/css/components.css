@@ -1,0 +1,25 @@
+button {border:0;border-radius:10px;background:var(--secondary);color:var(--primary);padding:10px 16px;cursor:pointer}
+button:hover {filter:brightness(.95)}
+button:disabled {opacity:.45;cursor:default}
+button:focus-visible,input:focus-visible,select:focus-visible {outline:2px solid var(--primary);outline-offset:2px}
+.primary {background:var(--primary);color:var(--on-primary)}
+.text-button {background:transparent}
+.card {background:var(--container);border-radius:10px;padding:16px;margin:8px 0}
+.server-card {cursor:pointer}
+.badge {display:inline-block;border-radius:5px;background:var(--badge);color:var(--badge-text);padding:3px 8px;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+.error {color:var(--error)}
+label {display:flex;flex-direction:column;gap:6px}
+label.check {flex-direction:row;align-items:center}
+input,select {background:var(--surface);color:var(--text);border:1px solid var(--outline);border-radius:5px;padding:10px;min-width:0}
+input[type=checkbox] {accent-color:var(--primary);width:18px;height:18px;flex-shrink:0}
+dialog {background:var(--container);color:var(--text);border:0;border-radius:20px;padding:24px;width:490px;max-width:90vw;max-height:90vh;overflow:auto}
+dialog::backdrop {background:#0006}
+dialog h2 {margin-top:0}
+.actions {display:flex;justify-content:flex-end;gap:8px;margin-top:20px}
+svg {width:24px;height:24px;fill:currentColor;flex-shrink:0}
+.progress {height:10px;border-radius:999px;background:var(--secondary);overflow:hidden;margin:12px 0 8px}
+.progress-fill {height:100%;width:var(--progress);background:var(--primary);border-radius:inherit}
+.loading {color:var(--primary);padding:4px}
+.job {height:212px;overflow:auto;margin:0 0 12px}
+.job p {margin:8px 0;overflow-wrap:anywhere}
+.selection .primary {padding:18px 24px}
